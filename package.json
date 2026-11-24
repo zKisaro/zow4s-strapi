@@ -9,12 +9,15 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.1.1",
-    "@strapi/plugin-users-permissions": "4.1.1",
-    "@strapi/plugin-i18n": "4.1.1",
-    "pg": "8.6.0"
+    "@strapi/plugin-i18n": "4.26.2",
+    "@strapi/plugin-users-permissions": "4.26.2",
+    "@strapi/strapi": "4.26.2",
+    "pg": "8.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.11"
   },
   "author": {
     "name": "A Strapi developer"
@@ -23,7 +26,7 @@
     "uuid": "c7d686c9-f120-4728-9620-c9a3a3c0b169"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
+    "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
